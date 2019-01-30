@@ -25,7 +25,7 @@ simulaPut<-function(strike, valorPutOrigin,valorIndexOrigen,tendenciaMercat,lamb
     # summary(benefici)
     # benefici<-benefici[benefici>0]
     
-    # dens(benefici[benefici>0])
+    dens(benefici[benefici>0])
     return(summary(benefici))
     
     
@@ -33,5 +33,5 @@ simulaPut<-function(strike, valorPutOrigin,valorIndexOrigen,tendenciaMercat,lamb
 #Tesla
 # simulaPut(strike=230,valorPutOrigin=200,valorIndexOrigen=250,tendenciaMercat=1,lamb=24,mesosPut=6,mitja=1-0.5,sig=0.2)
 #DIA
-simulaPut(strike=197,valorPutOrigin=367,valorIndexOrigen=250,tendenciaMercat=1,lamb=24,mesosPut=11,mitja=1-0.3,sig=0.1)
+simulaPut(strike=245,valorPutOrigin=2780,valorIndexOrigen=236,tendenciaMercat=1,lamb=24,mesosPut=11,mitja=1-0.3,sig=0.1)
 # benefici
